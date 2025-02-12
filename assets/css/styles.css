@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    font-family: roboto;
+    font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -23,13 +25,14 @@ h1 {
 .right-links a,
 .right-links a:visited,
 .right-links a:active{
-    color: white;
+    color: #F9FAF8;
     text-decoration: none;
     margin: 0 10px;
 }
 
 .right-links a:hover {
-    color: #3882f6
+    color: #3882f6;
+    font-size: 18px;
 }
 
 ul {
