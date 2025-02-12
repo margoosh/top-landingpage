@@ -68,7 +68,7 @@ p {
 .btn-signup a:visited
 .btn-signup a:active{
     background-color: #3882f6;
-    color: #F9FAF8;
+    color: #E5E7EB;
     border: none;
     border-radius: 10px;
     padding: 3px 15px;
@@ -89,5 +89,6 @@ p {
     height: auto;
     width: 35%;
 }
+
 
 
