@@ -64,14 +64,13 @@ p {
 }
 
 .btn-signup,
-.btn-signup a,
-.btn-signup a:visited
-.btn-signup a:active{
+.btn-signup:visited
+.btn-signup:active{
     background-color: #3882f6;
     color: #E5E7EB;
     border: none;
     border-radius: 10px;
-    padding: 3px 15px;
+    padding: 5px 20px;
     font-size: 18px;
     font-weight: 700;
     font-family: Roboto, sans-serif;
@@ -81,7 +80,7 @@ p {
     align-items: center;
 }
 
-.btn-signup a:hover{
+.btn-signup:hover{
     color: #1f2937;
 }
 
@@ -139,7 +138,8 @@ h3 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 0 100px;
+    margin: 100px 0;
+    padding: 50px 100px;
 }
 
 .quote,
@@ -154,4 +154,61 @@ h5 {
 
 h5 {
     align-self: flex-end;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 150px 50px 150px;
+    padding: 45px 40px;
+    border-radius: 15px;
+}
+
+.action-txt h6,
+.action-txt p{
+    margin: 5px 0;
+    padding: 0;
+}
+
+h6,
+.action-txt p,
+.btn-action
+.btn-action:visited,
+.btn-action:active{
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.btn-action {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid #F9FAF8;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    display: flex;
+}
+
+.btn-action:hover{
+    color: #1f2937;
+}
+
+
+.footer{
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    max-height: 50px;
+}
+
+.footer h6 {
+    color: #F9FAF8;
+    font-size: 15px;
 }
